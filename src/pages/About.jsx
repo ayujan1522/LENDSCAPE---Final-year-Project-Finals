@@ -4,7 +4,7 @@ import CommonSection from "../components/UI/CommonSection";
 import Helmet from "../components/Helmet/Helmet";
 import AboutSection from "../components/UI/AboutSection";
 import { Container, Row, Col } from "reactstrap";
-import BecomeDriverSection from "../components/UI/BecomeDriverSection";
+
 
 import driveImg from "../assets/all-images/drive.jpg";
 import OurMembers from "../components/UI/OurMembers";
@@ -28,21 +28,19 @@ const About = () => {
             <Col lg="6" md="6" sm="12">
               <div className="about__page-content">
                 <h2 className="section__title">
-                  We Are Committed To Provide Safe Ride Solutions
+                Embrace your Student Lifestyle with LendScape
                 </h2>
 
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
-                </p>
+                Welcome to LEND-SCAPE, your community-driven platform for sharing and borrowing resources!
+                We understand that as a student or young professional, you often need access to various items-textbooks, electronics, sporting gear, event supplies without the hefty price tag of buying them outright. That's where LEND-SCAPE steps in
+                Our mission is to make essential resources more accessible, affordable, and sustainable.
 
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                By creating a peer-to-peer rental marketplace, we empower you to borrow what you need and lend what you have
+                reducing waste and unnecessary spending LEND-SCAPE is all about fostering a culture of sharing, where you can connect with others in your community, save money, and reduce your environmental footprint Whether you're gearing up for an event, need a camera for a weekend project, or looking to borrow the latest edition of a textbook, LEND-SCAPE makes it simple. Just browse listings, make a request, and pick
+                up the item from a fellow user. On the flip side, if you have items you don't use frequently, you can list them on our platform and earn extra income by renting them out
+                </p>
                 </p>
 
                 <div className=" d-flex align-items-center gap-3 mt-4">
@@ -52,7 +50,7 @@ const About = () => {
 
                   <div>
                     <h6 className="section__subtitle">Need Any Help?</h6>
-                    <h4>+00123456789</h4>
+                    <h4>+91 9131974270</h4>
                   </div>
                 </div>
               </div>
@@ -60,8 +58,6 @@ const About = () => {
           </Row>
         </Container>
       </section>
-
-      <BecomeDriverSection />
 
       <section>
         <Container>

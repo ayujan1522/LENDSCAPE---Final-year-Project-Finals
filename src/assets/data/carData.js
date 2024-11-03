@@ -1,141 +1,79 @@
 // import all images from assets/images directory
-import img01 from "../all-images/cars-img/nissan-offer.png";
-import img02 from "../all-images/cars-img/offer-toyota.png";
-import img03 from "../all-images/cars-img/bmw-offer.png";
-import img04 from "../all-images/cars-img/nissan-offer.png";
-import img05 from "../all-images/cars-img/offer-toyota.png";
-import img06 from "../all-images/cars-img/mercedes-offer.png";
-import img07 from "../all-images/cars-img/toyota-offer-2.png";
-import img08 from "../all-images/cars-img/mercedes-offer.png";
-
+import img06 from "../all-images/Item-Image/Mountainbike.jpg";
+import img02 from "../all-images/Item-Image/Operating Systems.jpg";
+import img03 from "../all-images/Item-Image/Study desk.jpg";
+import img04 from "../all-images/Item-Image/HeadPhones.jpg";
+import img05 from "../all-images/Item-Image/Camera.jpg";
+import img01 from "../all-images/Item-Image/laptopStand.png";
 const carData = [
   {
     id: 1,
-    brand: "Tesla",
-    rating: 112,
-    carName: "Tesla Malibu",
+    name: "Laptop Stand",
     imgUrl: img01,
-    model: "Model 3",
-    price: 50,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
+    category: "Accessories",
+    price: 5,
+    condition: "Like New",
+    rentalPeriod: "Per Month",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "An ergonomic laptop stand that improves posture and provides better airflow for your laptop during long study sessions.",
   },
-
   {
     id: 2,
-    brand: "Toyota",
-    rating: 102,
-    carName: "Toyota Aventador",
+    name: "Textbook: Introduction to Psychology",
     imgUrl: img02,
-    model: "Model-2022",
-    price: 50,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
+    category: "Books",
+    price: 10,
+    condition: "Like New",
+    rentalPeriod: "Per Semester",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "A comprehensive textbook covering all major topics in psychology. Ideal for students taking introductory courses.",
   },
-
   {
     id: 3,
-    brand: "BMW",
-    rating: 132,
-    carName: "BMW X3",
+    name: "Study Desk",
     imgUrl: img03,
-    model: "Model-2022",
-    price: 65,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
+    category: "Furniture",
+    price: 15,
+    condition: "New",
+    rentalPeriod: "Per Month",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "A spacious study desk with built-in shelves. Perfect for organizing your study materials and creating a comfortable workspace.",
   },
-
   {
     id: 4,
-    brand: "Nissan",
-    rating: 102,
-    carName: "Nissan Mercielago",
+    name: "Noise-Cancelling Headphones",
     imgUrl: img04,
-    model: "Model-2022",
-    price: 70,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
+    category: "Electronics",
+    price: 20,
+    condition: "Good",
+    rentalPeriod: "Per Week",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "High-quality noise-cancelling headphones, ideal for studying in noisy environments or enjoying music.",
   },
-
   {
     id: 5,
-    brand: "Ferrari",
-    rating: 94,
-    carName: "Ferrari Camry",
+    name: "Camera: Canon EOS Rebel",
     imgUrl: img05,
-    model: "Model-2022",
-    price: 45,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
+    category: "Electronics",
+    price: 50,
+    condition: "Good",
+    rentalPeriod: "Per Day",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "A versatile camera great for photography assignments and capturing memories. Includes a lens and carrying case.",
   },
-
   {
     id: 6,
-    brand: "Mercedes",
-    rating: 119,
-    carName: "Mercedes Benz XC90",
+    name: "Mountain Bike",
     imgUrl: img06,
-    model: "Model-2022",
-    price: 85,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
+    category: "Transport",
+    price: 30,
+    condition: "Good",
+    rentalPeriod: "Per Week",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "A sturdy mountain bike perfect for commuting to campus and exploring nearby trails. Comes with a helmet and lock.",
   },
-
-  {
-    id: 7,
-    brand: "Audi",
-    rating: 82,
-    carName: "Audi Fiesta",
-    imgUrl: img07,
-    model: "Model 3",
-    price: 50,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
-    description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
-  },
-
-  {
-    id: 8,
-    brand: "Colorado",
-    rating: 52,
-    carName: "Rolls Royce Colorado",
-    imgUrl: img08,
-    model: "Model 3",
-    price: 50,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
-    description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
-  },
+ 
 ];
+
 
 export default carData;
