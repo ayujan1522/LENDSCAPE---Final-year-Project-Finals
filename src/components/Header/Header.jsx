@@ -71,10 +71,13 @@ const Header = () => {
               <div className="logo">
                 <h1>
                   <Link to="/home" className=" d-flex align-items-center gap-2">
-                    <i class="ri-car-line"></i>
-                    <span>
-                      Rent Car <br /> Service
-                    </span>
+                  <span>
+                  <img
+                      src="/logols.jpg.png"
+                        alt="Description"
+                       style={{ width: "200px", height: "auto" }}
+                  />
+                  </span>
                   </Link>
                 </h1>
               </div>

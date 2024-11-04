@@ -44,7 +44,7 @@ const Footer = () => {
                   <i></i>
                   <span>
                   <img
-                      src="/logols.png"
+                      src="/logols.jpg.png"
                         alt="Description"
                        style={{ width: "200px", height: "auto" }}
                   />
@@ -53,10 +53,8 @@ const Footer = () => {
               </h1>
             </div>
             <p className="footer__logo-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur, distinctio, itaque reiciendis ab cupiditate harum ex
-              quam veniam, omnis expedita animi quibusdam obcaecati mollitia?
-              Delectus et ad illo recusandae temporibus?
+              Welcome to LEND-SCAPE, your community-driven platform for sharing and borrowing resources!
+                We understand that as a student or young professional, you often need access to various items-textbooks, electronics, sporting gear, event supplies without the hefty price tag of buying them outright. That's where LEND-SCAPE steps in.
             </p>
           </Col>
 
