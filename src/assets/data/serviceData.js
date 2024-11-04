@@ -1,44 +1,44 @@
 const serviceData = [
   {
     id: 1,
-    title: "City Transfer",
-    icon: "ri-map-pin-2-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    title: "Bike Rental",
+    icon: "ri-bicycle-line",
+    desc: "Affordable bike rentals for students, perfect for commuting to campus and exploring the area without the hassle of ownership.",
   },
 
   {
     id: 2,
-    title: "Whole  City Tour",
-    icon: "ri-community-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    title: "Textbook Rentals",
+    icon: "ri-book-2-line",
+    desc: "Save money by renting textbooks for the semester. Access a wide variety of academic books without the high purchase cost.",
   },
 
   {
     id: 3,
-    title: "Unlimited Miles Car Rental",
-    icon: "ri-roadster-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    title: "Furniture Rentals",
+    icon: "ri-sofa-line",
+    desc: "Furnish your dorm or apartment with ease. Rent study desks, chairs, and other essentials without a long-term commitment.",
   },
 
   {
     id: 4,
-    title: "Fast & Easy Booking",
-    icon: "ri-timer-flash-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    title: "Electronics Rental",
+    icon: "ri-laptop-line",
+    desc: "Get access to laptops, tablets, and other tech essentials on a short-term basis to meet your academic and personal needs.",
   },
 
   {
     id: 5,
-    title: "Many Pickup Locations",
-    icon: "ri-map-pin-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    title: "Study Space Reservations",
+    icon: "ri-building-2-line",
+    desc: "Reserve quiet study spaces in convenient locations around campus, ideal for focused work or group study sessions.",
   },
 
   {
     id: 6,
-    title: "Airport Transfer",
-    icon: "ri-flight-takeoff-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    title: "Roommate Finder",
+    icon: "ri-group-line",
+    desc: "Connect with other students looking for roommates. A safe, easy way to find compatible housemates near campus.",
   },
 ];
 
